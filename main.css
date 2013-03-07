@@ -8,17 +8,40 @@ hr {
   width: 500px;
 }
 
-@font-face {
-  font-family: ProximaNova;
-  src: url('ProximaNova.otf');
+#header {
+  width: 600px;
+  height: 200px;
+  margin: auto;
+
+}
+
+#hlogo {
+  width: 400px;
+  height: 75px;
+  overflow: hidden;
+}
+
+#header #hlogo a {
+  width: 400px;
+  height: 75px;
+  background-position: 0px 0px;
+  background-image: url('images/header-bkgnd.png');
+  overflow: hidden;
 }
 
 #top_navigation {
-  width: 250px;
+  width: 600px;
+  height: 100px;
   margin: auto;
   margin-top: 33px;
   margin-bottom: 33px;
-  font-family: ProximaNova;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+#top_navigation a {
+  text-decoration: none;
+  color: black;
 }
 
 #top_navigation li {
