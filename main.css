@@ -1,0 +1,37 @@
+
+body {
+  background-image: url(lightpaperfibers.png);
+  background-repeat: repeat;
+}
+
+hr {
+  width: 500px;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('ProximaNova.otf');
+}
+
+#top_navigation {
+  width: 250px;
+  margin: auto;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  font-family: ProximaNova;
+}
+
+#top_navigation li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#homepage_content {
+  width: 500px;
+  margin: auto;
+  margin-top: 33px;
+  text-align: center;
+  color: #333333;
+  font-size: 2em;
+}
