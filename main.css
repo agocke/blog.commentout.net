@@ -10,7 +10,6 @@ hr {
 
 #header {
   width: 600px;
-  height: 200px;
   margin: auto;
 
 }
@@ -19,6 +18,9 @@ hr {
   width: 400px;
   height: 75px;
   overflow: hidden;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #header #hlogo a {
@@ -27,16 +29,15 @@ hr {
   background-position: 0px 0px;
   background-image: url('images/header-bkgnd.png');
   overflow: hidden;
+  display: block;
 }
 
 #top_navigation {
   width: 600px;
-  height: 100px;
   margin: auto;
-  margin-top: 33px;
-  margin-bottom: 33px;
   font-family: 'Raleway', sans-serif;
-  font-size: 2em;
+  font-size: 1.6em;
+  text-align: center;
 }
 
 #top_navigation a {
