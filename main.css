@@ -9,35 +9,43 @@ hr {
 }
 
 #header {
-  width: 600px;
+  width: 525px;
   margin: auto;
-
+  margin-bottom: 1em;
 }
 
 #hlogo {
-  width: 400px;
+  width: 525px;
   height: 75px;
   overflow: hidden;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px;
 }
 
 #header #hlogo a {
-  width: 400px;
+  width: 525px;
   height: 75px;
   background-position: 0px 0px;
-  background-image: url('images/header-bkgnd.png');
-  overflow: hidden;
+  background-image: url('images/header-backgnd2.png');
   display: block;
 }
 
 #top_navigation {
-  width: 600px;
+  width: 525px;
   margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-align: center;
+}
+
+#top_navigation ol {
+  padding: 0px;
+  margin: 0px;
 }
 
 #top_navigation a {
