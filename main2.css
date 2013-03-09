@@ -9,38 +9,22 @@ hr {
 }
 
 #header {
-  width: 525px;
+  width: 370px;
+  height: 40px;
   margin: auto;
-  margin-bottom: 1em;
-}
-
-#hlogo {
-  width: 525px;
-  height: 75px;
-  overflow: hidden;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
-
-#header #hlogo a {
-  width: 525px;
-  height: 75px;
   background-position: 0px 0px;
-  background-image: url('images/header-backgnd2.png');
+  background-image: url('images/header-bkgd3.png');
   background-repeat: no-repeat;
   display: block;
 }
 
 #top_navigation {
-  width: 525px;
+  width: 300px;
   margin: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.6em;
   text-align: center;
 }
 
