@@ -1,0 +1,67 @@
+
+body {
+  background-image: url(lightpaperfibers.png);
+  background-repeat: repeat;
+}
+
+#header {
+  width: 525px;
+  margin: auto;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(120, 0, 126);
+}
+
+#hlogo {
+  width: 450px;
+  height: 50px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#header #hlogo a {
+  width: 450px;
+  height: 50px;
+  background-position: 0px 0px;
+  background-image: url('images/header-bkgnd3.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+#top_navigation {
+  width: 525px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#top_navigation ol {
+  padding: 0px;
+  margin: 0px;
+}
+
+#top_navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+#top_navigation li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#homepage_content {
+  width: 500px;
+  margin: auto;
+  margin-top: 33px;
+  text-align: center;
+  color: #333333;
+  font-size: 2em;
+}
