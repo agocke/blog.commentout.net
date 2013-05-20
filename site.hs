@@ -16,7 +16,13 @@ main = hakyll $ do
           route   idRoute
           compile compressCssCompiler
 
-      match (fromList pages) $ do
+      match "about.markdown" $ do
+          route   $ setExtension ".html"
+          compile $ pandocCompiler
+              >>= loadAndApplyTemplate "templates/default.html" defaultContext
+              >>= relativizeUrls
+
+      match "welcome.markdown" $ do
           route   $ setExtension ".html"
           compile $ pandocCompiler
               >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -42,19 +48,7 @@ main = hakyll $ do
                   >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                   >>= relativizeUrls
 
-      match "index.html" $ do
-          route idRoute
-          compile $ do
-              let indexCtx = field "posts" $ \_ -> postList (take 3 . recentFirst)
-
-              getResourceBody
-                  >>= applyAsTemplate indexCtx
-                  >>= loadAndApplyTemplate "templates/default.html" postCtx
-                  >>= relativizeUrls
-
       match "templates/*" $ compile templateCompiler
-
-    where pages = [ "about.markdown" ]
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
