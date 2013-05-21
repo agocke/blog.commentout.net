@@ -4,7 +4,7 @@ body {
   background-repeat: repeat;
 }
 
-#header {
+header {
   width: 525px;
   margin: auto;
   padding-bottom: 1em;
@@ -21,7 +21,7 @@ body {
   padding: 0px;
 }
 
-#header #hlogo a {
+header #hlogo a {
   width: 450px;
   height: 50px;
   background-position: 0px 0px;
