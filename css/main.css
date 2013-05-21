@@ -8,7 +8,7 @@ header {
   width: 525px;
   margin: auto;
   padding-bottom: 1em;
-  border-bottom: 1px solid rgb(120, 0, 126);
+  background-repeat: no-repeat;
 }
 
 #hlogo {
@@ -23,6 +23,9 @@ header {
 
 #separator {
   background-image: url('/images/separator.png');
+  height: 30px;
+  width: 400px;
+  margin: auto;
 }
 
 header #hlogo a {
