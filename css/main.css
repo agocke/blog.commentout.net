@@ -30,7 +30,7 @@ body {
   display: block;
 }
 
-#top_navigation {
+nav {
   width: 525px;
   margin: auto;
   margin-top: 0px;
@@ -41,23 +41,23 @@ body {
   text-align: center;
 }
 
-#top_navigation ol {
+nav ol {
   padding: 0px;
   margin: 0px;
 }
 
-#top_navigation a {
+nav a {
   text-decoration: none;
   color: black;
 }
 
-#top_navigation li {
+nav li {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#content {
+#welcome {
   width: 500px;
   margin: auto;
   margin-top: 33px;
