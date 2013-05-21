@@ -7,4 +7,4 @@ cabal-dev
 .virthualenv
 _site/
 _cache/
-site
+hakyll
