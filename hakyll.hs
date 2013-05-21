@@ -23,7 +23,7 @@ main = hakyll $ do
               >>= relativizeUrls
 
       match "welcome.markdown" $ do
-          route   "index.html"
+          route   $ constRoute "index.html"
           compile $ pandocCompiler
               >>= loadAndApplyTemplate "templates/default.html" defaultContext
               >>= relativizeUrls
