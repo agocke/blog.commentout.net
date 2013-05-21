@@ -21,6 +21,10 @@ header {
   padding: 0px;
 }
 
+#separator {
+  background-image: url('/images/separator.png');
+}
+
 header #hlogo a {
   width: 450px;
   height: 50px;
