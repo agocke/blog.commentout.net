@@ -23,6 +23,7 @@ header {
 
 #separator {
   background-image: url('/images/separator.png');
+  background-repeat: no-repeat;
   height: 30px;
   width: 400px;
   margin: auto;
@@ -40,8 +41,8 @@ header #hlogo a {
 nav {
   width: 525px;
   margin: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   padding: 0px;
   font-family: 'Raleway', sans-serif;
   font-size: 1.4em;
@@ -70,5 +71,5 @@ nav li {
   margin-top: 33px;
   text-align: center;
   color: #333333;
-  font-size: 2em;
+  font-size: 1.2em;
 }
