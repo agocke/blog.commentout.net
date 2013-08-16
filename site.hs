@@ -28,7 +28,7 @@ main = hakyll $ do
             >>= relativizeUrls
 
 
-    match "posts/*" $ do
+    match "blog/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
@@ -38,7 +38,7 @@ main = hakyll $ do
     create ["archive.html"] $ do
         route $ constRoute "blog/index.html"
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts <- recentFirst =<< loadAll "blog/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
